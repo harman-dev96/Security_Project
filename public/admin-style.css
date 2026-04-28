@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e9e2e2; /* light grey background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main Card */
+.container {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.container h2 {
+    color: red;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+/* Input Fields */
+.container input {
+    width: 85%;              /* smaller width */
+    padding: 14px;
+    margin: 12px auto;       /* centers horizontally */
+    display: block;          /* required for margin auto */
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 15px;
+}
+
+/* Input Focus Effect */
+.container input:focus {
+    border-color: red;
+}
+
+/* Button */
+.container button {
+    width: 85%;              /* same as inputs */
+    padding: 12px;
+    margin: 15px auto;       /* center horizontally */
+    display: block;          /* required for centering */
+    background-color: red;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/* Button Hover */
+.container button:hover {
+    background-color: darkred;
+}
+
+/* Back Link */
+.container a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+}
+
+.container a:hover {
+    color: red;
+}

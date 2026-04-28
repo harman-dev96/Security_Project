@@ -1,0 +1,55 @@
+body {
+    background: #f7f6f6;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+.wrapper {
+    width: 900px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+#Main_head {
+    text-align: center;
+    color: red;
+    margin-bottom: 20px;
+}
+
+#teacherInfo {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 14px;
+    text-align: center;
+}
+
+th {
+    background: red;
+    color: white;
+}
+
+input {
+    width: 80px;
+    padding: 8px;
+}
+
+button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
